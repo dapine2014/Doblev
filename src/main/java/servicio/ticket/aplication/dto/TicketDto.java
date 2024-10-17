@@ -1,7 +1,6 @@
 package servicio.ticket.aplication.dto;
 
 import lombok.Data;
-import lombok.Value;
 import servicio.ticket.domain.auxiliary.Estatus;
 
 import java.io.Serializable;
