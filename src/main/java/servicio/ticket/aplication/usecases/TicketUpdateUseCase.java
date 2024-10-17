@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 import servicio.ticket.aplication.dto.TicketDto;
 import servicio.ticket.aplication.ports.inbound.ITicketUpdate;
 import servicio.ticket.domain.services.ITicketCommandService;
-import servicio.ticket.domain.services.ITicketEventService;
 
 import java.util.Optional;
 
