@@ -1,5 +1,6 @@
 package servicio.ticket.aplication.dto;
 
+import lombok.Data;
 import lombok.Value;
 import servicio.ticket.domain.auxiliary.Estatus;
 
@@ -9,7 +10,8 @@ import java.time.LocalDateTime;
 /**
  * DTO for {@link servicio.ticket.domain.entities.Ticket}
  */
-@Value
+
+@Data
 public class TicketDto implements Serializable {
     Long id;
     String usuario;

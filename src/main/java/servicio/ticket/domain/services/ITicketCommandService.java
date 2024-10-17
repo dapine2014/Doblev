@@ -6,6 +6,6 @@ import java.util.Optional;
 
 public interface ITicketCommandService {
     TicketDto createTicket(TicketDto ticketDto);
-    Optional<TicketDto> updateTicket(TicketDto ticketDto);
+    Optional<TicketDto> updateTicket(Long id,TicketDto ticketDto);
     void deleteTicketById(Long id);
 }
